@@ -1,1 +1,1 @@
-# LeetCode Questions Solved in C++
+# LeetCode
