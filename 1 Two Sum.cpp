@@ -1,12 +1,13 @@
 #include<iostream>
+#include<bits/stdc++.h>
 #include<unordered_map>
-#include<vector>
+#define vi vector<int>
 
 using namespace std;
 
-vector<int> twoSum(vector<int>& nums,int target)
+vi twoSum(vector<int>& nums,int target)
 {
-	vector<int> ans;
+	vi ans;
 	unordered_map<int,int> mp; //creating map
 	int i=0;
 	
@@ -28,9 +29,9 @@ vector<int> twoSum(vector<int>& nums,int target)
 
 int main()
 {
-	vector<int> v={3,2,3};
+	vi v={3,2,3};
 	int n=6;
-	vector<int> ans=twoSum(v,n);
+	vi ans=twoSum(v,n);
 	for(auto k:ans)
 	cout<<k<<" ";
 }
